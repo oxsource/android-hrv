@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/colorWhite</item>
+    </style>
+
+    <style name="PrimaryToolBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="contentInsetRight">24dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="navigationIcon">@mipmap/icon_tool_back</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="title">&#160;</item>
+    </style>
+
+    <!--Alert View-->
+    <style name="AlertStyle" parent="android:Theme.Holo.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 等待/进度对话框样式 -->
+    <style name="UIProgressDialog" parent="AlertStyle">
+        <item name="android:backgroundDimEnabled">false</item> <!-- 模糊 -->
+    </style>
+
+</resources>

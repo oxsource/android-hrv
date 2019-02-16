@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HRV自我测评</string>
+    <string name="can_not_obtain_data">无法获取数据</string>
+    <string name="http_request_error">网络请求出错</string>
+    <string name="not_support_operation">不支持的操作</string>
+    <string name="please_special_classify">请指定分类</string>
+    <string name="please_waiting">请稍候</string>
+    <string name="cancel">取消</string>
+    <string name="clean_cache">清理缓存</string>
+    <string name="not_support_data_type">不支持的数据类型</string>
+    <string name="next_step">下一步</string>
+    <string name="finish">完成</string>
+    <string name="please_solve_this">请完成此题</string>
+    <string name="fetch_empty_data">未查询到数据</string>
+    <string name="unknown">未知</string>
+    <string name="quest_classify_sas">焦虑</string>
+    <string name="quest_classify_sss">睡眠状况</string>
+    <string name="quest_classify_sds">抑郁</string>
+    <string name="quest_classify_sms">记忆力</string>
+    <string name="hint">提示</string>
+    <string name="continuation">继续</string>
+    <string name="whether_continue_answer">是否继续答题？</string>
+    <string name="quest_answer_result">测评结果</string>
+    <string name="clean_cache_finished">本地缓存已清空</string>
+</resources>

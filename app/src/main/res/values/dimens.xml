@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ui_progress_widget_margin">5dp</dimen>
+    <dimen name="ui_progress_bar_size">40dp</dimen>
+    <dimen name="ui_progress_dlg_height">105dp</dimen>
+    <dimen name="ui_progress_dlg_width">120dp</dimen>
+</resources>
